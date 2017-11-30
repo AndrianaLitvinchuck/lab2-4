@@ -36,13 +36,7 @@ public class ShoppingCart  implements Comparator<Product> {
         return sum;
     };
     
-    public int sumOfShoppingCartStr(){
-       
-         int sum =  cart.stream().mapToInt(i->(i.getPrice())).sum();
-  
-       return sum;
-        
-    }
+   
     
     @Override
     public int compare(Product p1, Product p2) {
@@ -132,12 +126,7 @@ public class ShoppingCart  implements Comparator<Product> {
         cart1.outputGroup();
         
         System.out.println(cart1.sumOfShoppingCartStr()); 
-       // ShoppingCart cart2 = new ShoppingCart();
-         
-         
-         //cart2.getCollection() = cart1.theMostExpensiveProduct(3);
-       
-            //System.out.println(b);
+
         
 		
       }
