@@ -90,7 +90,7 @@ public class ShoppingCart  implements Comparator<Product> {
                return res;  
     }
     
-    public void outputGroup(){
+    public void outputShoppingCart
         for (Product s: cart) {
             System.out.println(s.toString());
             System.out.println();
